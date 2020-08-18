@@ -243,15 +243,75 @@ a:hover {
     border-radius: 10px;
 }
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    /* dropdown */
+    .iconHumberger {
+        padding: 5px 15px;
+    }
+    #dropdownMenu {
+        margin-top: 80px;
+    }
+    .itemDropdown {
+        padding: 10px 5px;
+    }
+    /* content */
+    .boxRowContent {
+        margin-bottom: 30px;
+    }
+    .boxContentFull{
+        margin-top: 70px;
+    }
+    .hrOne {
+        width: 80px;
+    }
+    .titleTwo {
+        padding-left: 130px;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* navbar */
+    .iconHumberger {
+        padding: 7px 18px;
+    }
+    #dropdownMenu {
+        margin-top: 80px;
+    }
+    .itemDropdown {
+        padding: 10px 5px;
+    }
+    /* content */
+    .boxRowContent {
+        margin-bottom: 30px;
+    }
+    .boxContentFull{
+        margin-top: 70px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* navbar */
+    .iconHumberger {
+        padding: 7px 18px;
+    }
+    #dropdownMenu {
+        margin-top: 80px;
+    }
+    .itemDropdown {
+        padding: 10px 5px;
+    }
+    /* content */
+    .boxRowContent {
+        margin-bottom: 30px;
+    }
+    .boxContentFull{
+        margin-top: 70px;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 
