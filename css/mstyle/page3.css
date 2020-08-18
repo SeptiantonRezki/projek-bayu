@@ -1,0 +1,258 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    margin-bottom: 50px;
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+/* animation dropdown*/
+
+.displayDropdown {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+.removeDisplay {
+    animation-name: example2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {
+        right: -500px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+@keyframes example2 {
+    from {
+        right: 0px;
+    }
+    to {
+        right: -500px;
+    }
+}
+
+/* animation dropdown download */
+
+.displayDropdownDownload {
+    right: 0px;
+    position: absolute;
+    animation-name: dropdownDownloadAnimationOne;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.removeDisplayDropdownDownload {
+    position: absolute;
+    right: -500px;
+    animation-name: dropdownDownloadAnimationTwo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* animasi muncul */
+
+@keyframes dropdownDownloadAnimationOne {
+    from {
+        right: 0px;
+    }
+    to {
+        right: -500px;
+    }
+}
+
+/* animasi menghilang */
+
+@keyframes dropdownDownloadAnimationTwo {
+    from {
+        right: -500px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+/* navbar css style*/
+
+.iconHumberger {
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.addNavbarStyle {
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 60px;
+    background-color: transparent;
+
+}
+
+/* dropdown style */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color : greenyellow;
+}
+
+#dropdownMenu {
+    margin-top: 60px;
+    position: fixed;
+    overflow-x: hidden;
+    height: 100%;
+    width: 200px;
+    background-color: red;
+    right: 0px;
+    z-index: 1;
+}
+
+.itemDropdown {
+    background-color: blue;
+    padding: 15px 5px;
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.itemDropdown:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #ff23ff;
+}
+
+.iconItemDropdown {
+    padding: 10px;
+    background-color: tomato;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.linkItemDropdown {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dropdownDownloadItem {
+    background-color: yellowgreen;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+.iconItemDropdownDownload {
+    padding: 7px;
+    background-color: tomato;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.boxImageInDropdown {
+    bottom: 60px;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+}
+
+/* content */
+
+.box-content {
+    height: 100%;
+    margin-top: 100px;
+}
+
+.boxTitle {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.hrOne {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid green;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.hrTwo {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 220px;
+    width: 150px;
+    border: 1px solid green;
+}
+
+.titleOne {
+    display: inline-block;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.titleTwo {
+    padding-left: 160px;
+}
+
+.boxIconOne {
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxRowContent:hover {
+    color: white;
+    background-color: #108dd6;
+    transition: all 1s ease;
+}
+
+.boxRowContent {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, .1);
+    flex-direction: column;
+    border: 1px solid #108dd6;
+    border-radius: 10px;
+}
+
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
